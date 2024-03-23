@@ -1,7 +1,9 @@
 const Footer = () => {
   return (
-    <footer>
-      <p>Blogger - Created by K3PAA</p>
+    <footer className='footer'>
+      <div className='container'>
+        <p className='footer__text'>Blogger - Created by K3PAA</p>
+      </div>
     </footer>
   )
 }
